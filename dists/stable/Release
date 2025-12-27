@@ -2,6 +2,11 @@ Origin: RaikageOS
 Label: Raikage Repository
 Suite: stable
 Codename: stable
+Date: $(date -uR)
 Architectures: amd64
 Components: main
 Description: RaikageOS Official Repository
+SHA256:
+ $(sha256sum dists/stable/main/binary-amd64/Packages | cut -d" " -f1) $(wc -c < dists/stable/main/binary-amd64/Packages) main/binary-amd64/Packages
+ $(sha256sum dists/stable/main/binary-amd64/Packages.gz | cut -d" " -f1) $(wc -c < dists/stable/main/binary-amd64/Packages.gz) main/binary-amd64/Packages.gz
+EOF
