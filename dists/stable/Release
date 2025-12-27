@@ -2,7 +2,7 @@ Origin: RaikageOS
 Label: Raikage Repository
 Suite: stable
 Codename: stable
-Date: $(date -uR)
+Date: Sat, 27 Dec 2025 06:42:15 +0000
 Architectures: amd64
 Components: main
 Description: RaikageOS Official Repository
