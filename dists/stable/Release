@@ -1,12 +1,11 @@
-Origin: RaikageOS
+Origin: Raikage OS
 Label: Raikage Repository
 Suite: stable
 Codename: stable
-Date: Sat, 27 Dec 2025 06:42:15 +0000
+Date: Sat, 27 Dec 2025 06:45:00 +0000
 Architectures: amd64
 Components: main
-Description: RaikageOS Official Repository
+Description: Raikage OS Official Repository
 SHA256:
- $(sha256sum dists/stable/main/binary-amd64/Packages | cut -d" " -f1) $(wc -c < dists/stable/main/binary-amd64/Packages) main/binary-amd64/Packages
- $(sha256sum dists/stable/main/binary-amd64/Packages.gz | cut -d" " -f1) $(wc -c < dists/stable/main/binary-amd64/Packages.gz) main/binary-amd64/Packages.gz
-EOF
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 701311005b736410ee29c9c72e259e8f66838a11f2a36d7348e352296c00d5ed 20 main/binary-amd64/Packages.gz
