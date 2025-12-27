@@ -1,0 +1,7 @@
+Origin: RaikageOS
+Label: Raikage Repository
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: RaikageOS Official Repository
